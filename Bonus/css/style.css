@@ -141,7 +141,7 @@ img {
         padding:0;
     }
 }
-@media screen and (max-width:576px){
+@media screen and (max-width:480px){
     .row{
         flex-wrap: wrap;
     }
@@ -158,4 +158,43 @@ img {
     }
     
 }
+
+/*correzione esercizio fatta in classe
+
+@media screen and (max-width:768px){
+    .container{
+        width:100%;
+    }
+}
+@media screen and (max-width:480px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .row .col{
+        width:100%;
+    }
+    .steps{
+        margin-bottom: 0px;
+    }
+    .why-us{
+        background-color:#222222;
+        padding-top:48px;
+        margin-bottom:0px;
+    }
+    .col:not(:last-child){
+        margin-bottom:3rem;
+    ]
+}
+
+
+-----bonus----
+
+@media screen and (min-width:768px){
+    .container{
+        max-with:1200px;
+        width:100%;
+        
+    }
+}
+*/
 
